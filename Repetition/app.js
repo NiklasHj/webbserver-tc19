@@ -18,7 +18,7 @@ app.get('/style', (req, res) => {
 })
 app.get('/greaat', (req, res) => {
     res.sendFile(clientDir + 'success.css')
-  })
+})
 app.get('/annoyed', (req, res) => {
   res.sendFile(clientDir + 'niklas.png')
 })
